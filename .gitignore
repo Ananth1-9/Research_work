@@ -1,0 +1,27 @@
+# Python Virtual Environment
+# This is critical! Never commit your .venv.
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Data Files
+# These are your large scientific data files.
+*.fits
+*.csv
+*.png
+*.jpg
+*.pdf
+
+# Any files without an extension (like your 147MB data file)
+SMDG*
+
+# Intermediate scientific files
+*.o
+
+# Entire folders of data and compiled software
+# This will ignore everything inside these folders.
+DOLPHOT/
+Space_data/
+
+.ipynb_checkpoints/
